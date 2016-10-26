@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-core-2.0.jar!/org/gradle/api/Project.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/XanitizerSensor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../code quality/Xanitizer-2.4.4/scripts/run_security_analysis.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SonarTest.XanitizerConfig">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Xanitizer-Findings-List.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/findinglist.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/findinglistNew.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gradle/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/run_security_analysis.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/quality/UserDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/webgoatExample.XanitizerConfig">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sonar-xanitizer-1.3.2/src/main/java/com/rigsit/xanitizer/sqplugin/XanitizerSensor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/dev/git/ACP/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/dev/git/ACP/src/main/java/com/mbrodskyi/domain/algorithm/MathematicsModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/dev/git/ACP/src/main/java/com/mbrodskyi/domain/service/FlightModelServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/dev/git/ACP/src/main/java/view/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/dev/git/ACP/src/main/java/view/controller/GoogleMapJSController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/dev/git/ACP/src/main/java/view/dao/MongoDAOImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/dev/git/ACP/src/main/java/view/dto/ConflictSituationDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/dev/git/ACP/src/main/java/view/dto/service/DTOService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/sonar/sonarqube-6.0/conf/sonar-runner.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/sonar/sonarqube-6.0/conf/sonar.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

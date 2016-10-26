@@ -1,0 +1,22 @@
+<project default="sendMail">
+
+	<!-- 	Template implementation for sending mails via Ant. See details at https://ant.apache.org/manual/Tasks/mail.html
+			The mail task requires the additional mail.jar file in the Ant classpath. 
+			You can download it from http://www.oracle.com/technetwork/java/index-138643.html for free. -->
+	
+	<target name="sendMail">
+		<mail 
+			mailhost="-- SMTP host --"
+			mailport="-- TCP port of the SMTP server --"
+			subject="-- subject --"
+			from="-- address of sender --"
+			user="-- user name for SMTP auth --"
+			password="-- password for SMTP auth --"
+			tolist="-- Comma-separated list of recipients --"
+			files="-- Comma separated list of files that should be attached --"
+			>
+			<message>-- Message --</message>
+		</mail>
+	</target>
+
+</project>

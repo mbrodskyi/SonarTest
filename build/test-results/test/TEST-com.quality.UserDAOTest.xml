@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.quality.UserDAOTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-10-20T15:16:09" hostname="HRK1-LHP-F49229" time="0.003">
+  <properties/>
+  <testcase name="testDeleteUserNegative2" classname="com.quality.UserDAOTest" time="0.002"/>
+  <testcase name="testDeleteUserNegative3" classname="com.quality.UserDAOTest" time="0.0"/>
+  <testcase name="testDeleteUserPositive" classname="com.quality.UserDAOTest" time="0.0"/>
+  <testcase name="testDeleteUserNegative" classname="com.quality.UserDAOTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

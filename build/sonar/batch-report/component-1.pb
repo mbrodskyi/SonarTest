@@ -1,0 +1,1 @@
+	SonarTest :J1.0R org.sonarqube:java-gradle-simple

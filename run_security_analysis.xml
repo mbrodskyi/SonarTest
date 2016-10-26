@@ -1,0 +1,182 @@
+<project default="runSecurityAnalysis">
+	
+	<!-- ************************ Required Properties ************************ -->
+	<!-- The path to the Xanitizer installation directory -->
+	<property name="install.dir" location="d:/development/code quality/Xanitizer-2.4.4"/>
+	
+	<!-- The path to the Xanitizer configuration file of the project that should be analyzed -->
+	<property name="config.file" location="D:/development/workspaceIdea/SVN/SonarTest/SonarTest.XanitizerConfig"/>
+
+	<!-- ************************ Optional Properties ************************ -->
+	<!-- The log level of the build. One of ALL (highest value), SEVERE, WARNING, INFO. Default is WARNING -->
+	<property name="log.level" value="WARNING"/>
+	
+	<!-- The output file of the overview report. This has to be a file. If not set the overview report will not be generated. 
+		 Allowed file extensions are: PDF, HTML, DOC-->
+	<property name="overview.report.outputfile" value="overview.pdf"/>
+	
+	<!-- The output file of the findings list report. This has to be a file. If not set the findings list report will not be generated. 
+		 Allowed file extensions are: PDF, HTML, DOC, XML-->
+	<property name="findingslist.report.outputfile" value="Xanitizer-Findings-List.xml"/>
+	
+	<!-- Specifies if only findings with problem classifications are written to the findings list report. -->
+	<!-- <property name="only.problems.in.findings.list.report" value="false"/> -->
+	
+	<!-- The output directory of the project export. If not set the project will not be exported.  -->
+	<property name="export.directory" value="."/>
+	
+	<!-- The passphrase for the project export. The parameter is only used if export directory is set. 
+		 If the parameter is not set or empty, the exported project is not encrypted. -->
+	<!-- <property name="export.passphrase" value=""/> -->
+	
+	<!-- Selects whether the task should fail if there are search paths configured that do not exist anymore. Default is false. -->
+	<property name="halton.missingsearchpaths" value="true"/>
+	
+	<!-- The name of a property to set in the event of missing search paths.
+		 By default no property is set. -->
+	<!-- <property name="property.missingsearchpaths" value="<NAME OF PROPERTY>"/> -->
+	
+	<!-- Selects whether the task should fail if there are *NEW* findings with a rating equal or higher than the value defined for ${rating.newfindings}.
+		 Default is false. -->
+	<!-- <property name="halton.newfindings" value="<TRUE OR FALSE>"/> -->
+	
+	<!-- The name of a property to set in the event of *NEW* findings with a rating equal or higher than the value defined for ${rating.newfindings}.
+		 By default no property is set. -->
+	<!-- <property name="property.newfindings" value="<NAME OF PROPERTY>"/> -->
+	
+	<!-- A rating value. Only used if ${halton.newfindings} or ${property.newfindings} is set.
+		 Default is 5. -->
+	<!-- <property name="rating.newfindings" value="<DOUBLE VALUE BETWEEN 0 AND 10>"/> -->
+	
+	<!-- Selects whether the task should fail if there are findings with a rating equal or higher than the value defined for ${rating.findings}.
+		 Default is false. -->
+	<property name="halton.findings" value="true"/>
+	
+	<!-- The name of a property to set in the event of findings with a rating equal or higher than the value defined for ${rating.findings}.
+		 By default no property is set. -->
+	<!-- <property name="property.findings" value="<NAME OF PROPERTY>"/> -->
+	
+	<!-- A rating value. Only used if ${halton.findings} or ${property.findings} is set.
+		 Default is 5. -->
+	<property name="rating.findings" value="7.00"/>
+	
+	<!-- Selects whether a snapshot should be created after a successful analysis or not. Note: If any of the *halt on* checks fails no snapshot will be created.
+		 Default is true. -->
+	<property name="create.snapshot" value="true"/>
+	
+	
+	<!-- ************************ Task Definition ************************ -->
+	<!-- ************************ DO NOT CHANGE THE FOLLOWING LINES ************************ -->
+	<taskdef name="runSecurityAnalysisTask" classname="com.rigsit.xanitizer.ant.RunSecurityAnalysisTask">
+		<classpath>
+			<fileset dir="${install.dir}/plugins" includes="**/*.jar"/>
+		</classpath>
+	</taskdef>
+	
+	<condition property="create.snapshot" value="true">
+		<not>
+			<isset property="create.snapshot"/>
+		</not>
+	</condition>
+	
+	<condition property="export.directory" value="">
+		<not>
+			<isset property="export.directory"/>
+		</not>
+	</condition>
+	
+	<condition property="export.passphrase" value="">
+		<not>
+			<isset property="export.passphrase"/>
+		</not>
+	</condition>
+	
+	<condition property="overview.report.outputfile" value="">
+		<not>
+			<isset property="overview.report.outputfile"/>
+		</not>
+	</condition>
+	
+	<condition property="findingslist.report.outputfile" value="">
+		<not>
+			<isset property="findingslist.report.outputfile"/>
+		</not>
+	</condition>
+	
+	<condition property="log.level" value="WARNING">
+		<not>
+			<isset property="log.level"/>
+		</not>
+	</condition>
+	
+	<condition property="rating.newfindings" value="5">
+		<not>
+			<isset property="rating.newfindings"/>
+		</not>
+	</condition>
+	
+	<condition property="rating.findings" value="5">
+		<not>
+			<isset property="rating.findings"/>
+		</not>
+	</condition>
+	
+	<condition property="halton.missingsearchpaths" value="false">
+		<not>
+			<isset property="halton.missingsearchpaths"/>
+		</not>
+	</condition>
+	
+	<condition property="halton.newfindings" value="false">
+		<not>
+			<isset property="halton.newfindings"/>
+		</not>
+	</condition>
+	
+	<condition property="halton.findings" value="false">
+		<not>
+			<isset property="halton.findings"/>
+		</not>
+	</condition>
+	
+	<condition property="property.missingsearchpaths" value="">
+		<not>
+			<isset property="property.missingsearchpaths"/>
+		</not>
+	</condition>
+	
+	<condition property="property.newfindings" value="">
+		<not>
+			<isset property="property.newfindings"/>
+		</not>
+	</condition>
+	
+	<condition property="property.findings" value="">
+		<not>
+			<isset property="property.findings"/>
+		</not>
+	</condition>
+	
+	<target name="runSecurityAnalysis">
+		<assertions><enable/></assertions>
+		<runSecurityAnalysisTask
+			configFile="${config.file}"
+			installDir="${install.dir}"
+			createSnapshot="${create.snapshot}"
+			overviewReportOutputFile="${overview.report.outputfile}"
+			findingsListReportOutputFile="${findingslist.report.outputfile}"
+			onlyProblemsInFindingsListReport="${only.problems.in.findings.list.report}"
+			exportDirectory="${export.directory}"
+			exportPassphrase = "${export.passphrase}"
+			newFindingsRating="${rating.newfindings}"
+			findingsRating="${rating.findings}"
+			haltOnMissingSearchPaths="${halton.missingsearchpaths}"
+			haltOnNewFindings="${halton.newfindings}"
+			haltOnFindings="${halton.findings}"
+			missingSearchPathsProperty="${property.missingsearchpaths}"
+			newFindingsProperty="${property.newfindings}"
+			findingsProperty="${property.findings}"
+			logLevel="${log.level}"
+		/>
+	</target>
+</project>

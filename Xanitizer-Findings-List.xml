@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XanitizerFindingsList xanitizerVersion="version 2.4.4, build no. 3 of 10/4/16" xanitizerVersionShort="2.4.4" timeStamp="2016-10-26 13:47:30" timeStampLong="1477478850553" allFindings="17" findingsNotRemovedByFilter="17" problemFindingsNotRemovedByFilter="3">
+
+
+  <finding id="15" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="14" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="17" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="12" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="13" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="16" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="8" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="7" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="10" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="6" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="11" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="9" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>26</line>
+    <description><![CDATA[
+UserDAO:26
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="26" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="5" kind="NON_TAINTED">
+    <problemType>Privacy Leak</problemType>
+    <problemTypeId>pl:PrivacyLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainted Sinks</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>27</line>
+    <description><![CDATA[
+UserDAO:27
+
+An identified data flow sink. But uncritical for 'Privacy Leak' because it is not reached by any taint path of this problem type.
+Taint Sink: println(...)
+
+Matching pattern in sink kind 'System Output': void java.io.PrintStream.print*(**)
+]]></description>
+    <node lineNo="27" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="4" kind="NON_TAINTED">
+    <problemType>Privacy Leak</problemType>
+    <problemTypeId>pl:PrivacyLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainted Sinks</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>31</line>
+    <description><![CDATA[
+UserDAO:31
+
+An identified data flow sink. But uncritical for 'Privacy Leak' because it is not reached by any taint path of this problem type.
+Taint Sink: write(...)
+
+Matching pattern in sink kind 'System Output': void java.io.Writer.write(int)
+]]></description>
+    <node lineNo="31" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="2" kind="PATH">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Security: Taint Paths</category>
+    <rating>5.00</rating>
+    <classification>Warning</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>31</line>
+    <description><![CDATA[
+UserDAO:31
+	<-
+UserDAO:30
+
+An identified taint path for the problem type 'IO Stream Resource Leak'
+Matching pattern in source kind 'IO Stream Opened': java.io.FileWriter(java.io.File)
+
+Information about matching pattern in sink kind not available.
+]]></description>
+    <startNode lineNo="30" classFQN="com.quality.UserDAO"/>
+    <endNode lineNo="31" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="3" kind="PATH">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Security: Taint Paths</category>
+    <rating>5.00</rating>
+    <classification>Warning</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>UserDAO</class>
+    <file>UserDAO</file>
+    <line>32</line>
+    <description><![CDATA[
+UserDAO:32
+	<-
+UserDAO:30
+
+An identified taint path for the problem type 'IO Stream Resource Leak'
+Matching pattern in source kind 'IO Stream Opened': java.io.FileWriter(java.io.File)
+
+Information about matching pattern in sink kind not available.
+]]></description>
+    <startNode lineNo="30" classFQN="com.quality.UserDAO"/>
+    <endNode lineNo="32" classFQN="com.quality.UserDAO"/>
+  </finding>
+
+
+  <finding id="1" kind="PATH">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Security: Taint Paths</category>
+    <rating>4.90</rating>
+    <classification>Warning</classification>
+    <matchCode>GUESS</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-24 20:14:17 - guess</date>
+    <package>com.quality</package>
+    <class>MyReader</class>
+    <file>MyReader</file>
+    <line>37</line>
+    <description><![CDATA[
+MyReader:37
+	<-
+UserDAO:22
+
+An identified taint path for the problem type 'IO Stream Resource Leak'
+Matching pattern in source kind 'IO Stream Opened': java.io.FileReader(java.lang.String)
+
+Information about matching pattern in sink kind not available.
+]]></description>
+    <startNode lineNo="22" classFQN="com.quality.UserDAO"/>
+    <endNode lineNo="37" classFQN="com.quality.MyReader"/>
+  </finding>
+</XanitizerFindingsList>

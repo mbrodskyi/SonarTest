@@ -1,0 +1,76 @@
+apply plugin: "java"
+apply plugin: "org.sonarqube"
+apply plugin: "jacoco"
+
+
+
+ant.importBuild 'build.xml'
+
+sourceCompatibility = 1.8
+version = "1.0"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2"
+        }
+    }
+    dependencies {
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.1"
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "SonarTest"
+        property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
+        property "sonar.xanitizer.xmlReportFile", "${project.rootDir}/Xanitizer-Findings-List.xml"
+        property "sonar.sourceEncoding", "UTF-8"
+        property "sonar.verbose", "true"
+        property "sonar.log.level", "DEBUG"
+
+
+    }
+}
+
+test {
+    jacoco {
+        append = false
+        destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
+        classDumpFile = file("$buildDir/jacoco/classpathdumps")
+    }
+}
+
+/*jacoco {
+    toolVersion = "0.7.6.201602180812"
+    reportsDir = file("$buildDir/customJacocoReportDir")
+}*/
+
+jacocoTestReport {
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+    reports {
+        xml.enabled true
+        csv.enabled false
+        html.destination "${buildDir}/reports/coverage"
+    }
+}
+
+
+
+task hello << {
+    String greeting = "hello from Ant"
+    ant.echo(message: greeting)
+    ant.echo(message: project.projectDir)
+}
+
+
+

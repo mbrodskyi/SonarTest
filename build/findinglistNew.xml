@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XanitizerFindingsList xanitizerVersion="version 2.4.4, build no. 3 of 10/4/16" xanitizerVersionShort="2.4.4" timeStamp="2016-10-18 13:44:34" timeStampLong="1476787474651" allFindings="22" findingsNotRemovedByFilter="22" problemFindingsNotRemovedByFilter="4">
+
+
+  <finding id="19" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>47</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):47
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="47" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="21" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>77</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):77
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="77" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="22" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>77</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):77
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="77" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="20" kind="SANITIZER">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>77</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):77
+
+An identified sanitizer for problem type 'IO Stream Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="77" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="15" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>47</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):47
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="47" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="18" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>77</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):77
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="77" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="16" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>77</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):77
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="77" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="17" kind="SANITIZER">
+    <problemType>Socket Resource Leak</problemType>
+    <problemTypeId>rl:SocketResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Applied Sanitizers</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>77</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):77
+
+An identified sanitizer for problem type 'Socket Resource Leak'.
+Taint Sanitizer: close()
+
+Matching pattern in sanitizer kind 'Close IO Resource Sanitizer': void java.io.Closeable.close()
+]]></description>
+    <node lineNo="77" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="11" kind="NON_TAINTED">
+    <problemType>Privacy Leak</problemType>
+    <problemTypeId>pl:PrivacyLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainted Sinks</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>48</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):48
+
+An identified data flow sink. But uncritical for 'Privacy Leak' because it is not reached by any taint path of this problem type.
+Taint Sink: println(...)
+
+Matching pattern in sink kind 'System Output': void java.io.PrintStream.print*(**)
+]]></description>
+    <node lineNo="48" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="12" kind="NON_TAINTED">
+    <problemType>Privacy Leak</problemType>
+    <problemTypeId>pl:PrivacyLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainted Sinks</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>60</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):60
+
+An identified data flow sink. But uncritical for 'Privacy Leak' because it is not reached by any taint path of this problem type.
+Taint Sink: println(...)
+
+Matching pattern in sink kind 'System Output': void java.io.PrintStream.print*(**)
+]]></description>
+    <node lineNo="60" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="14" kind="NON_TAINTED">
+    <problemType>Privacy Leak</problemType>
+    <problemTypeId>pl:PrivacyLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainted Sinks</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>78</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):78
+
+An identified data flow sink. But uncritical for 'Privacy Leak' because it is not reached by any taint path of this problem type.
+Taint Sink: println(...)
+
+Matching pattern in sink kind 'System Output': void java.io.PrintStream.print*(**)
+]]></description>
+    <node lineNo="78" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="13" kind="NON_TAINTED">
+    <problemType>Privacy Leak</problemType>
+    <problemTypeId>pl:PrivacyLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainted Sinks</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>90</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):90
+
+An identified data flow sink. But uncritical for 'Privacy Leak' because it is not reached by any taint path of this problem type.
+Taint Sink: println(...)
+
+Matching pattern in sink kind 'System Output': void java.io.PrintStream.print*(**)
+]]></description>
+    <node lineNo="90" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="5" kind="NON_TAINTED">
+    <problemType>Command Injection</problemType>
+    <problemTypeId>ci:CommandInjection</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainting Sources</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>29</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):29
+
+An identified data flow source. But uncritical for 'Command Injection' because no taint paths of this problem type are starting from this finding.
+Taint Source: main(...)
+
+Matching pattern in source kind 'Main Method Arguments': void java.lang.Object.main(java.lang.String[])
+]]></description>
+    <node lineNo="29" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="8" kind="NON_TAINTED">
+    <problemType>LDAP Injection</problemType>
+    <problemTypeId>ci:LDAPInjection</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainting Sources</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>29</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):29
+
+An identified data flow source. But uncritical for 'LDAP Injection' because no taint paths of this problem type are starting from this finding.
+Taint Source: main(...)
+
+Matching pattern in source kind 'Main Method Arguments': void java.lang.Object.main(java.lang.String[])
+]]></description>
+    <node lineNo="29" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="7" kind="NON_TAINTED">
+    <problemType>SQL Injection</problemType>
+    <problemTypeId>ci:SQLInjection</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainting Sources</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>29</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):29
+
+An identified data flow source. But uncritical for 'SQL Injection' because no taint paths of this problem type are starting from this finding.
+Taint Source: main(...)
+
+Matching pattern in source kind 'Main Method Arguments': void java.lang.Object.main(java.lang.String[])
+]]></description>
+    <node lineNo="29" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="10" kind="NON_TAINTED">
+    <problemType>XPath Injection</problemType>
+    <problemTypeId>ci:XPathInjection</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainting Sources</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>29</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):29
+
+An identified data flow source. But uncritical for 'XPath Injection' because no taint paths of this problem type are starting from this finding.
+Taint Source: main(...)
+
+Matching pattern in source kind 'Main Method Arguments': void java.lang.Object.main(java.lang.String[])
+]]></description>
+    <node lineNo="29" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="6" kind="NON_TAINTED">
+    <problemType>Manipulated File System Access</problemType>
+    <problemTypeId>pt:PathTraversal</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainting Sources</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>29</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):29
+
+An identified data flow source. But uncritical for 'Manipulated File System Access' because no taint paths of this problem type are starting from this finding.
+Taint Source: main(...)
+
+Matching pattern in source kind 'Main Method Arguments': void java.lang.Object.main(java.lang.String[])
+]]></description>
+    <node lineNo="29" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="9" kind="NON_TAINTED">
+    <problemType>Trust Boundary Violation: HTTP Session</problemType>
+    <problemTypeId>tbv:TrustBoundaryViolationSession</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Hint: Non-tainting Sources</category>
+    <rating>0.00</rating>
+    <classification>Information</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>29</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):29
+
+An identified data flow source. But uncritical for 'Trust Boundary Violation: HTTP Session' because no taint paths of this problem type are starting from this finding.
+Taint Source: main(...)
+
+Matching pattern in source kind 'Main Method Arguments': void java.lang.Object.main(java.lang.String[])
+]]></description>
+    <node lineNo="29" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="4" kind="PATH">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Security: Taint Paths</category>
+    <rating>4.80</rating>
+    <classification>Warning</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>47</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):47
+	<-
+TryWithResources_BadUsage.java (<Source Code>):44
+
+An identified taint path for the problem type 'IO Stream Resource Leak'
+Matching pattern in source kind 'IO Stream Opened': java.io.FileReader(java.lang.String)
+
+Information about matching pattern in sink kind not available.
+]]></description>
+    <startNode lineNo="44" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+    <endNode lineNo="47" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="2" kind="PATH">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Security: Taint Paths</category>
+    <rating>4.80</rating>
+    <classification>Warning</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>47</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):47
+	<-
+TryWithResources_BadUsage.java (<Source Code>):44
+
+An identified taint path for the problem type 'IO Stream Resource Leak'
+Matching pattern in source kind 'IO Stream Opened': java.io.FileReader(java.lang.String)
+
+Information about matching pattern in sink kind not available.
+]]></description>
+    <startNode lineNo="44" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+    <endNode lineNo="47" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="3" kind="PATH">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Security: Taint Paths</category>
+    <rating>4.80</rating>
+    <classification>Warning</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>47</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):47
+	<-
+TryWithResources_BadUsage.java (<Source Code>):44
+
+An identified taint path for the problem type 'IO Stream Resource Leak'
+Matching pattern in source kind 'IO Stream Opened': java.io.FileReader(java.lang.String)
+
+Information about matching pattern in sink kind not available.
+]]></description>
+    <startNode lineNo="44" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+    <endNode lineNo="47" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+
+
+  <finding id="1" kind="PATH">
+    <problemType>IO Stream Resource Leak</problemType>
+    <problemTypeId>rl:IOStreamResourceLeak</problemTypeId>
+    <producer>BuiltIn:TAINTPATHS</producer>
+    <category>Security: Taint Paths</category>
+    <rating>4.80</rating>
+    <classification>Warning</classification>
+    <matchCode>NOT</matchCode>
+    <reviewed>Not Reviewed</reviewed>
+    <date>2016-10-18 13:44:34 - new</date>
+    <package>&lt;default&gt;</package>
+    <class>TryWithResources_BadUsage</class>
+    <file>TryWithResources_BadUsage.java</file>
+    <line>77</line>
+    <description><![CDATA[
+TryWithResources_BadUsage.java (<Source Code>):77
+	<-
+TryWithResources_BadUsage.java (<Source Code>):73
+
+An identified taint path for the problem type 'IO Stream Resource Leak'
+Matching pattern in source kind 'IO Stream Opened': java.io.FileReader(java.lang.String)
+
+Information about matching pattern in sink kind not available.
+]]></description>
+    <startNode lineNo="73" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+    <endNode lineNo="77" classFQN="TryWithResources_BadUsage" relativePath="TryWithResources_BadUsage.java" absolutePath="D:/development/code quality/Xanitizer-2.4.4/examples/tryWithResources_BadUsage/TryWithResources_BadUsage.java"/>
+  </finding>
+</XanitizerFindingsList>

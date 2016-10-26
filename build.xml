@@ -1,0 +1,10 @@
+<project>
+	
+	<!-- Sample integration of the Xanitizer Ant task into an existing build script. -->
+	
+	<target name="runXanitizer">
+		<ant antfile="run_security_analysis.xml" target="runSecurityAnalysis" />
+
+	</target>
+
+</project>
